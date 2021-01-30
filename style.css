@@ -1,0 +1,340 @@
+
+/* General Rules */
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: none;
+}
+
+@font-face {
+    font-family: 'Comfortaa'; /* a name to be used later*/
+    src: url('./Fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+
+/* Navigation bar */
+
+#nav-holder{
+    position: sticky;
+    z-index: 2;
+}
+
+    #nav-holder h1 {
+        background-color:transparent;
+        text-align: center;
+        color: rgb(246, 245, 243);
+        font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
+        font-weight: 900;
+        font-size: 300%;
+        margin-top: 1%;
+    }
+
+    #nav-holder ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: transparent;
+        z-index: 3;
+    }
+
+        #nav-holder ul li {
+            padding: 1.5%;
+            float: left;
+            background-color: transparent;
+            text-align: center;
+            width: 8%;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 3;
+        }
+
+        #nav-holder ul li:hover {
+            background-color: black;
+            border-radius: 20px;
+        }
+
+            #nav-holder ul li p{
+                color: rgb(246, 245, 243);
+                text-align: center;
+                font-weight: bold;
+                z-index: 3;
+            }
+
+
+#nav-image{
+    display: block;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: -10%;
+    margin-top: -10%;
+    border-bottom-left-radius: 50% 14%;
+    border-bottom-right-radius: 60% 10%;
+}
+
+
+
+
+
+
+/*  Main */
+
+main{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: rgb(246, 245, 243);
+   /* background-color: rgb(4, 5, 11); */
+}
+
+
+
+/* Intro Section */
+
+#intro-pic-1{
+    
+    box-shadow: 4px 4px 15px 1px black;
+    width: 30%;
+    z-index: 2;
+    margin-right: 4%;
+}
+
+#intro-pic-2{
+    margin-bottom: 20%;
+    width: 17%;
+    z-index: 2;
+    
+    box-shadow: 4px 4px 15px 1px black;
+}
+
+.intro-text-container{
+    position: relative;
+    float: right;
+    max-width: 40%;
+    margin: 10% 5% 0 0;
+    z-index: 2;
+}
+
+    .intro-text-container p {
+        font-family: 'Comfortaa' ;
+        font-weight: bolder;
+        font-size: 160%;
+        text-align: left;
+        line-height: 150%;
+        padding: 5%;
+        color: black;
+        z-index: 2;
+    }
+
+
+
+/* General Section Styling */
+
+.section-header{
+    font-size: 300%;
+    margin: 10% 0 4% 2% ;
+    color: black;
+}
+
+
+/* UIC Education Section */
+
+#uic-container{
+    margin: 5% 7% 2% 7%;  
+}
+
+    .uic-portion{
+        display: inline-block; 
+    }
+
+        #uic-logo-container{
+            width: 30%;
+        }
+            .uic-portion img{
+                    width: 100%;
+                    float: right;   
+            }
+
+        #uic-description {
+            margin-right: 5%;
+            vertical-align: top;
+            border-color:black;
+            width: 64%;
+        }
+            #uic-description p {
+                color: black;
+                font-size: 160%;
+                font-family: 'Comfortaa';
+                font-weight: 900;
+                line-height: 150%;
+                color: rgb(213, 0, 50);
+            }
+
+
+/* Machon Yaakov Education Section */
+
+
+#MY-title{
+    margin: 2% 0 3% 0;
+    text-align: center;
+    color: rgb(40, 28, 85);
+    font-size: 250%;
+}
+
+.MY-container{
+    margin: 8% 7% 2% 7%;   
+}
+
+.MY-portion{
+    display: inline-block;   
+}
+
+    #MY-logo-container{
+        width: 30%;
+    }
+        .MY-portion img{
+            margin-top: 8%;
+            width: 100%;
+            float: left;
+        }
+
+    #MY-description {
+        margin-left: 8%;
+        vertical-align: top;
+        border-color:black;
+        width: 60% ;
+    }
+        #MY-description p {
+            color: black;
+            font-size: 160%;
+            font-family: 'Comfortaa';
+            font-weight: 900;
+            line-height: 150%;
+            text-align: left;
+            color: rgb(40, 28, 85);
+        }
+
+
+
+/* Projects Section */
+
+#RF-container{
+    border: thin solid rgb(34, 24, 65);
+    border-radius: 20px;
+    margin: 0 5% 0 5%;
+    box-shadow: 0px 0px 5px 1px rgb(48, 35, 80);
+    perspective: 1000px;
+}
+
+    #RF-container h3{
+        margin: 1% 0 0 0 ;
+        color: rgb(28, 26, 34);
+        text-align: center;
+        font-size: 250%;
+        font-weight: 900;
+        
+    }
+
+    #RFdescription{
+            margin: 2% 3% 0 4%;
+    }
+        #RFdescription p{
+            font-size: 160%;
+            font-family: 'Comfortaa';
+            font-weight: 900;
+            line-height: 150%;
+            text-align: left;
+            color: rgb(28, 26, 34);
+        }
+
+    .RF-images{
+        display: table;
+        table-layout: auto;
+        border-spacing: 1%;
+        width: 90%;
+        padding: 1% 0 4% 2.5%;
+
+    }
+
+    .RFcard-holder{
+        display: inline-table;
+        width: 32%;
+        perspective: 1000px;
+    }
+
+        .RFcard-holder:hover .RFcard-Inner{
+            transform: rotateY(180deg);
+        }
+
+        .RFcard-Inner{
+            width: 100%;
+            
+            transition: 0.8s;
+            transform-style: preserve-3d;
+            text-align: center;
+        }
+
+        .RFfront-side{
+            width: 100%;
+            position: absolute;
+            -webkit-backface-visibility: hidden; /* Safari */
+            backface-visibility: hidden;
+        }
+            .RF-image{
+                width: 100%;
+            }
+
+
+        #front-side3{
+            width: 120%;
+        }
+            #RF-joined3-4{
+                width: 100%;
+            }
+        
+        .RFback-side{
+            text-align: left;
+            display: inline-table;
+            transform: rotateY(180deg);
+            width: 80%;
+            -webkit-backface-visibility: hidden; 
+            backface-visibility: hidden; 
+            padding: 7% 7% 7% 7%;
+            margin: 7% 0 0 0;
+            background-color: rgb(28, 26, 34);
+            color:rgb(146, 143, 134);
+            border-radius: 20px;
+            box-shadow: 3px 3px 10px 1px black;
+        }
+
+        #back-side1{
+            padding-bottom: 47%;
+        }
+        #back-side2{
+            padding-bottom: 72%;
+        }
+        #back-side3{
+            padding-bottom: 27%;
+        }
+
+        .RFback-side p {
+            font-size: 150%;
+            font-family: 'Comfortaa';
+            font-weight: 900;
+            line-height: 130%;
+        }
+         
+
+
+
+
+
+
+
+
+
+
+/* Other section */

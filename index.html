@@ -1,0 +1,169 @@
+<Head>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+</Head>
+
+<Body>
+
+    <header>
+
+         <!--            Navigation bar        -->
+        <div id="nav-holder" >
+
+            <h1 class="title-name">  Zachary Gurevich</h1>
+
+            <ul>
+                <li id="education"> <p> Education </p> </li>
+                <li id="projects"> <p> Projects </p> </li>
+                <li id="other"> <p> Other </p> </li>
+                <li style="float: right;" id="contact"> <p> Contact </p> </li>
+            </ul>
+
+        </div>
+
+        <img id="nav-image" src="./Images/SunsetLightCropped.jpg" alt="a sunset in Israel">
+       
+    </header>
+
+    <!--            Main Body       -->
+    <main class="main">
+
+        <!--            Inntroduction section       -->
+        <img id= intro-pic-1 src="./Images/TelAvivChill.jpg" alt="picture of zach">
+        <img id= intro-pic-2  src="./Images/0.jpeg" alt="zach headshot">
+            
+        <div class="intro-text-container">
+            <p>
+                My name is Zach, I am a Chemical Engineering student at the University of Illinois at Chicago. 
+                In my free time I enjoy working on motorcycles, taking apart electronics, and learning new things.
+                I created this website as a learning project in web development. 
+            </p>
+        </div>
+        
+        <!--            Education section       -->
+            <h2 class="section-header" id="education-tag"> Education </h2>
+
+                <!--            Education section content begins here      -->
+            <!--     <h3 id="uic-title"> University of Illinois at Chicago</h3>     -->
+           
+            <div id="uic-container">
+
+                <div class="uic-portion" id="uic-description" >
+                        <p>
+                            I started UIC in the fall of 2016, pursuing a bachlors degree in Kinesiology. 
+                            After taking Organic Chemistry and Calculus 3 I realized that I need something with a larger element of problem solving. 
+                            I realized that I wanted to be an engineer. After studing Jewish theology in Israel for 2 years, 
+                            I am now pursuing a BS in Chemical Engineering with a minor in Computer Science.
+                        </p>
+                </div>      
+                
+                <div class="uic-portion" id="uic-logo-container" >
+                    <img src="./logos/UIC logo.png" alt="University of Illinois at Chicago logo">
+                </div>
+
+            </div>
+
+          <!--    <h3 id="MY-title"> Machon Yaakov</h3>     -->
+            
+            <div class="MY-container">
+
+                <div class="MY-portion" id="MY-logo-container" >
+                    <img src="./logos/Machonyaakovlogo.png" alt="Machon yaakov logo">
+                </div>
+
+                <div class="MY-portion" id="MY-description" >
+                        <p>
+                            As I matured in college, I realized that a central aspect of my identity was disproportionately  underdeveloped.
+                            As an orthodox Jew I felt like I wasn’t living life with integrity. 
+                            I left school and traveled to Israel, to Machon Yaakov, to study Jewish theology for a couple of years (2019-2021). 
+                            Over the last two years I delved deep into Jewish law, western morals, and family. 
+                        </p>
+                </div>      
+    
+            </div>
+
+
+ <!--            Projects Section       -->
+        <div class="projects-section">
+
+            <h2 class="section-header" id="project-tag"> Projects</h2>
+            
+            <div id="RF-container">
+
+                <h3 id="RF-title"> Royal Flush - an app idea </h3>
+
+                <div id="RFdescription"> 
+                    <p> 
+                        Royal Flush was an app I made to learn Java and mobile development. 
+                        I used videos on “LinkedIn Learning”, as well as online forums to master the skills required.
+                        The app is essentially a map that displays gender neutral, and accessible, bathrooms to the user. 
+                        This app was meant for use predominantly on a college campus, where these kinds of bathrooms are prevalent. 
+                        The bathroom data was stored in a Google Firestore Database. (Click on the images) 
+                    </p>
+                </div>
+
+                <div class="RF-images">
+
+                    <div class="RFcard-holder" >
+                        <div class="RFcard-Inner" >
+                            <div class="RFfront-side" id="front-side1">
+                                <img class="RF-image" src="./Royal Flush/RF1.png" alt="Lavatory Locator screen">
+                            </div>
+                            <div class="RFback-side" id="back-side1">
+                                <p> This screen would display the map, 
+                                    the user could then click on a marker and it would display a short description of the bathroom. 
+                                    The user could then press the navigation button and get directions in google maps.
+                                </p>
+                            </div>
+                        </div >
+                    </div>
+
+                    <div class="RFcard-holder" >
+                        <div class="RFcard-Inner" >
+                            <div class="RFfront-side" id="front-side2">
+                                <img class="RF-image" id="RFimage2" src="./Royal Flush/RF2.png" alt="">
+                            </div>
+                            <div class="RFback-side" id="back-side2" > 
+                                <p> Once the user was safe and sound in the bathroom, 
+                                    they could then enjoy this jokes screen. 
+                                    This screen would display 20 random new jokes upon reload of the app.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="RFcard-holder" >
+                        <div class="RFcard-Inner" >
+                            <div class="RFfront-side" id="front-side3">
+                                <img id= "RF-joined3-4" src="./Royal Flush/RFlayered3-4.png" alt="">
+                            </div>
+                            <div class="RFback-side" id="back-side3"> 
+                                <p> This screen allows a user to send anonymous messages to other users within 2 miles of their location. 
+                                    I thought that It would be very cool to give students on campus a public announcement board, 
+                                    of sorts, which can only be used while in range.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--            Other section       -->
+
+        <div class="other-section">
+            <h2 class="section-header" id="other-tag"> Other</h2>
+        </div>
+        
+
+    </main>
+
+    <script src="script.js"></script>
+    
+</Body>
+
