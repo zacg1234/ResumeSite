@@ -24,7 +24,8 @@ html {
 }
 
     #nav-holder h1 {
-        background-color:transparent;
+        background-color:rgba(o, 0, 0, 70);
+
         text-align: center;
         color: rgb(246, 245, 243);
         font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
