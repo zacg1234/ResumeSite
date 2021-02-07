@@ -3,8 +3,8 @@ const PROJECTBTN = document.getElementById("projects");
 const OTHERBTN = document.getElementById("other");
 const CONTACTBTN = document.getElementById("contact");
 
-const EDUTAG = document.getElementById("education-tag");
-const PROTAG = document.getElementById("project-tag");
+const EDUTAG = document.getElementById("education-line");
+const PROTAG = document.getElementById("project-line");
 const OTHTAG = document.getElementById("other-tag");
 
 EDUCATIONBTN.addEventListener("click", scrollEDU);

@@ -15,55 +15,60 @@ html {
     src: url('./Fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf'); /*URL to font*/
 }
 
-
-/* Navigation bar */
-
-#nav-holder{
-    position: sticky;
-    z-index: 2;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+.seperation-line{
+    display: block;
+    margin: 7% auto 5% auto;
+    width: 40%;
 }
 
-    #nav-holder h1 {
-        position: sticky;
+    .title-name {
+        background-color: rgb(51, 51, 51);
+        /* background-image: linear-gradient(to bottom,rgb(246, 245, 243), rgba(51,51,51,1) 5%); */
         text-align: center;
-        color: rgb(246, 245, 243);
-        font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
+        color: blanchedalmond;
+        font-family: 'Comfortaa';
         font-weight: 900;
-        font-size: 300%;
+        font-size: 3vw;
+        width: 100%;
+        padding-top: 0.5%;
     }
 
-    #nav-holder ul {
+    #nav-options{
+        -webkit-backdrop-filter: saturate(200%) blur(10px);
+        backdrop-filter: saturate(200%) blur(10px);
+        background-color: rgba(0, 0, 0, 0.8); 
         position: sticky;
+        top: 0;
+        width: 100%;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: transparent;
-        z-index: 3;
+        z-index: 100;
     }
 
-        #nav-holder ul li {
-            padding: 1.5%;
+        #nav-options li {
+            padding: 1em;
             float: left;
             background-color: transparent;
             text-align: center;
             width: 8%;
             text-decoration: none;
             font-family: Arial, Helvetica, sans-serif;
-            z-index: 3;
+            z-index: 100;
+            cursor: pointer;
         }
 
-        #nav-holder ul li:hover {
-            background-color: black;
-            border-radius: 20px;
+        #nav-options li:hover p{
+            color: rgb(246, 245, 243);            
         }
 
-            #nav-holder ul li p{
-                color: rgb(246, 245, 243);
+            #nav-options li p{
+                color: blanchedalmond;
                 text-align: center;
                 font-weight: bold;
-                z-index: 3;
+                z-index: 100;
+                font-size: 1.1em;
             }
 
 
@@ -72,7 +77,7 @@ html {
     width: 100%;
     z-index: 1;
     margin-bottom: -10%;
-    margin-top: -10%;
+    
     border-bottom-left-radius: 50% 14%;
     border-bottom-right-radius: 60% 10%;
 }
@@ -128,6 +133,7 @@ main{
         padding: 5%;
         color: black;
         z-index: 2;
+        text-size-adjust: 88%;
     }
 
 
@@ -135,8 +141,8 @@ main{
 /* General Section Styling */
 
 .section-header{
-    font-size: 300%;
-    margin: 10% 0 4% 2% ;
+    font-size: 3rem;
+    margin: 0% 0 4% 2% ;
     color: black;
 }
 
@@ -163,11 +169,11 @@ main{
             margin-right: 5%;
             vertical-align: top;
             border-color:black;
-            width: 64%;
+            width: 50vw;
         }
             #uic-description p {
                 color: black;
-                font-size: 160%;
+                font-size: 1.6em;
                 font-family: 'Comfortaa';
                 font-weight: 900;
                 line-height: 150%;
@@ -228,19 +234,22 @@ main{
     margin: 0 5% 0 5%;
     box-shadow: 0px 0px 5px 1px rgb(48, 35, 80);
     perspective: 1000px;
+    width: 90vw;
 }
 
     #RF-container h3{
         margin: 1% 0 0 0 ;
         color: rgb(28, 26, 34);
         text-align: center;
-        font-size: 250%;
+        font-size: 2.3em;
         font-weight: 900;
+        text-size-adjust: 100%;
         
     }
 
     #RFdescription{
             margin: 2% 3% 0 4%;
+            width: 93%;
     }
         #RFdescription p{
             font-size: 160%;
@@ -249,6 +258,7 @@ main{
             line-height: 150%;
             text-align: left;
             color: rgb(28, 26, 34);
+            text-size-adjust: 97%;
         }
 
     .RF-images{
@@ -264,6 +274,7 @@ main{
         display: inline-table;
         width: 32%;
         perspective: 1000px;
+        cursor: pointer;
     }
 
         .RFcard-holder:hover .RFcard-Inner{
@@ -312,20 +323,21 @@ main{
         }
 
         #back-side1{
-            padding-bottom: 47%;
+            padding-bottom: 44%;
         }
         #back-side2{
-            padding-bottom: 72%;
+            padding-bottom: 73%;
         }
         #back-side3{
             padding-bottom: 27%;
         }
 
         .RFback-side p {
-            font-size: 150%;
+            font-size: 1.5em;
             font-family: 'Comfortaa';
             font-weight: 900;
             line-height: 130%;
+            text-size-adjust: 84%;
         }
          
 
