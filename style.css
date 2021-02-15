@@ -23,7 +23,7 @@ html {
 }
 
     .title-name {
-        background-color: rgb(51, 51, 51);
+        background-color: rgba(0, 0, 0, 0.8);
         /* background-image: linear-gradient(to bottom,rgb(246, 245, 243), rgba(51,51,51,1) 5%); */
         text-align: center;
         color: blanchedalmond;
