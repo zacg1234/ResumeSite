@@ -2,6 +2,7 @@
 /* General Rules */
 html {
     scroll-behavior: smooth;
+    background-color: rgb(246, 245, 243);
 }
 
 *{
@@ -44,7 +45,7 @@ html {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        z-index: 100;
+        z-index: 1000;
     }
 
         #nav-options li {
@@ -89,30 +90,22 @@ html {
 
 /*  Main */
 
-main{
-    margin-top: 0;
-    padding-top: 0;
-    background-color: rgb(246, 245, 243);
-   /* background-color: rgb(4, 5, 11); */
-}
-
-
 
 /* Intro Section */
 
 #intro-pic-1{
-    
     box-shadow: 4px 4px 15px 1px black;
     width: 30%;
     z-index: 2;
     margin-right: 4%;
+    border-radius: 2%;
 }
 
 #intro-pic-2{
     margin-bottom: 20%;
     width: 17%;
     z-index: 2;
-    
+    border-radius: 2%;
     box-shadow: 4px 4px 15px 1px black;
 }
 
@@ -162,7 +155,8 @@ main{
         }
             .uic-portion img{
                     width: 100%;
-                    float: right;   
+                    float: right; 
+                    vertical-align: top;  
             }
 
         #uic-description {
@@ -172,7 +166,6 @@ main{
             width: 50vw;
         }
             #uic-description p {
-                color: black;
                 font-size: 1.6em;
                 font-family: 'Comfortaa';
                 font-weight: 900;
@@ -252,13 +245,13 @@ main{
             width: 93%;
     }
         #RFdescription p{
-            font-size: 160%;
+            font-size: 2.2vw;
             font-family: 'Comfortaa';
             font-weight: 900;
-            line-height: 150%;
+            line-height: 3vw;
             text-align: left;
             color: rgb(28, 26, 34);
-            text-size-adjust: 97%;
+            text-size-adjust: 100%;
         }
 
     .RF-images{
@@ -340,14 +333,66 @@ main{
             text-size-adjust: 84%;
         }
          
+/* Hobbies section */
+
+.h-portion{
+    margin: 1% 0 1% 0 ;
+    padding: 0;
+    height: 35vw;
+}
+    #moto-section{
+        margin-bottom: 0%;
+    }
+
+    .hobbies-section section p{
+        color: black;
+        margin: 0 4% 0% 4%;
+        font-size: 2vw;
+        font-family: 'Comfortaa';
+        font-weight: 900;
+        line-height: 150%;
+        text-align: left;
+        
+    }
+
+    .hobbies-section section img{
+        box-shadow: 4px 4px 15px 1px black;
+        border-radius: 2%;
+        margin: 0 4% 2% 4%;
+    }
+
+.motorcycle-img{
+    width: 30%;
+    float: right;
+}
+    
+
+.engine-img{
+    width: 20%;
+    float: left;
+}
+.macbook-img{
+    width: 40%;
+    float: right;
+}
+.macbook-text{
+    padding-bottom: 4%;
+}
 
 
+footer{
+    display: table;
+    margin: 18vw 0 0 0;
+    background-color:rgb(51, 51, 51);
+    height: 3vw;
+    width: 100%;
+}
+footer p {
+    display: table-cell;
+    color:rgb(246, 245, 243);
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
 
-
-
-
-
-
-
-
-/* Other section */

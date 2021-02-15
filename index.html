@@ -16,9 +16,29 @@
       <ul id="nav-options">
           <li class="navbtn" id="education"> <p> Education </p> </li>
           <li class="navbtn" id="projects"> <p> Projects </p> </li>
-          <li class="navbtn" id="other"> <p> Other </p> </li>
+          <li class="navbtn" id="other"> <p> Hobbies </p> </li>
           <li class="navbtn" style="float: right;" id="contact"> <p> Contact </p> </li>
       </ul>
+
+
+      <!-- <div>
+            <form action="mailto:zachgurevich@gmail.com">
+                <h1>Contact Form</h1>
+
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Please Enter Your Name..." name="name" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Please Enter Your Email..." name="email" required>
+            
+                <label for="message"><b>Message</b></label>
+                <input type="text" placeholder="Please Enter Your Password..." name="message" required>
+            
+                <button type="submit" class="send-btn">Send</button>
+
+                <button type="submit" class="cancel-btn" onclick="closeForm()">Close</button>
+            </form>
+      </div> -->
 
 
   <img id="nav-image" src="./Images/SunsetLightCropped.jpg" alt="a sunset in Israel">
@@ -44,7 +64,6 @@
             <h2 class="section-header" id="education-tag"> Education </h2>
 
                 <!--            Education section content begins here      -->
-            <!--     <h3 id="uic-title"> University of Illinois at Chicago</h3>     -->
            
             <div id="uic-container">
 
@@ -63,8 +82,7 @@
 
             </div>
 
-          <!--    <h3 id="MY-title"> Machon Yaakov</h3>     -->
-            
+         
             <div class="MY-container">
 
                 <div class="MY-portion" id="MY-logo-container" >
@@ -155,14 +173,55 @@
 
         <!--            Other section       -->
 
-        <div class="other-section">
-            <h2 class="section-header" id="other-tag"> Other</h2>
+        <img id="hobbies-line" class="seperation-line" src="./logos/clipart610863.png" alt="section seperation line" loading="lazy">
+
+
+        <div class="hobbies-section">
+            <h2 class="section-header" id="hobbies-tag"> Hobbies </h2>
+            
+            <section class="h-portion" style="height: 32vw;">
+                <img class="motorcycle-img" src="./Images/’93 Nighthawk.png" alt="motorcycle image">
+                <p class="motorcycle-text">
+                    In the spring of 2018, I bought my first motorcycle. I fell in love with riding and I would ride it everywhere. 
+                    When I rode it to school it would wake me up in the morning and get me ready to learn. 
+                    When I rode my bike home all the stress of that day would melt away. 
+                    After a few months, my natural inclination towards fixing and improving things kicked in.
+                    My first project was to change the clutch of the bike. Since the bike was already 20 years old the clutch had worn and had begun to slip.
+                </p>
+            </section>
+
+            <section class="h-portion">
+                <img class="engine-img" src="./Images/Cam chain.png" alt="motorcycle engine image">
+                <p class="engine-text">
+                    After watching instructional videos and reading the shop manual I began the job. This was the first major repair project I had ever done, 
+                    and it took much longer than expected. Over the following months I would tinker with my bike on Sundays, 
+                    culminating with me disassembling my friends’ bike, that didn’t run, and getting it running again. 
+                    The image to the left shows one of my projects where I changed out the cam chain tensioner, which sets the timing of the engine.
+                    With my growing confidence, and love for working on physical projects, I would fix things around the house whenever needed.
+                </p>
+            </section>
+
+            <section class="h-portion">
+                <img class="macbook-img" src="./Images/Motherboard.png" alt="disassembled laptop image">
+                <p class="macbook-text">
+                    While studying abroad in Israel, my friends room flooded and submerged my friends MacBook underwater.  
+                    After retrieving the laptop, he didn’t know what to do. Being in a foreign country he didn’t know who he could get to fix his water damaged laptop. 
+                    Having nowhere else to turn he asked me to try and fix it. I told him I was almost positive I wouldn’t be able to, but I would give it a try. 
+                    The process stared from the beginning, research on “how does water damage ruin electronics”, reading various articles and developing a game plan. 
+                    I decided that the best I could do is to thoroughly clean off any corrosion on all of the connections with alcohol. That is what I did. 
+                    After gingerly disassembling the laptop, cleaning is, and then putting it back together. I held my breath as I powered it up… <br> IT WORKED! 
+                </p>
+            </section>
+
         </div>
-        
-
     </main>
-
-    <script src="script.js"></script>
+   
     
 </Body>
 
+<footer>
+    <p> Designed and devloped by Zachary Gurevich</p>
+</footer>
+
+
+<script src="script.js"></script>

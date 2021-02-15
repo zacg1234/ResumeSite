@@ -1,3 +1,5 @@
+    
+    // Button Navigation
 const EDUCATIONBTN = document.getElementById("education");
 const PROJECTBTN = document.getElementById("projects");
 const OTHERBTN = document.getElementById("other");
@@ -5,7 +7,7 @@ const CONTACTBTN = document.getElementById("contact");
 
 const EDUTAG = document.getElementById("education-line");
 const PROTAG = document.getElementById("project-line");
-const OTHTAG = document.getElementById("other-tag");
+const OTHTAG = document.getElementById("hobbies-line");
 
 EDUCATIONBTN.addEventListener("click", scrollEDU);
 PROJECTBTN.addEventListener("click", scrollPRO);
@@ -26,5 +28,10 @@ function scrollOTH(){
 }
 
 
+    // Contact form setup\
+CONTACTBTN.addEventListener("click", function(){window.open('mailto:zachgurevich@gmail.com?subject=General Inquiry')});
+CONTACTBTN.addEventListener("click", OpenContactForm);
 
- 
+function OpenContactForm(){
+
+};
