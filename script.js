@@ -4,6 +4,7 @@ const EDUCATIONBTN = document.getElementById("education");
 const PROJECTBTN = document.getElementById("projects");
 const OTHERBTN = document.getElementById("other");
 const CONTACTBTN = document.getElementById("contact");
+const PLAYPG = document.getElementById("PG_link");
 
 const EDUTAG = document.getElementById("education-line");
 const PROTAG = document.getElementById("project-line");
@@ -12,6 +13,17 @@ const OTHTAG = document.getElementById("hobbies-line");
 EDUCATIONBTN.addEventListener("click", scrollEDU);
 PROJECTBTN.addEventListener("click", scrollPRO);
 OTHERBTN.addEventListener("click", scrollOTH);
+blinkText(PLAYPG.innerText)
+
+function blinkText(text){
+    let myInterval = setInterval(() =>{
+        
+       setTimeout(
+        PLAYPG.style.color == "transparent" ? PLAYPG.style.color  = "rgb(59, 74, 53)" : PLAYPG.style.color  = "transparent"
+        ,500)
+    }
+    , 1000)
+}
 
 
 function scrollEDU(){
