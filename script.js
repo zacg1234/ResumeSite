@@ -18,8 +18,14 @@ blinkText(PLAYPG.innerText)
 function blinkText(text){
     let myInterval = setInterval(() =>{
         
-       setTimeout(
-        PLAYPG.style.color == "transparent" ? PLAYPG.style.color  = "rgb(59, 74, 53)" : PLAYPG.style.color  = "transparent"
+       setTimeout( ()=>{
+            if (PLAYPG.style.color == "transparent"){
+                PLAYPG.style.color  = "rgb(59, 74, 53)"
+            } 
+            else {
+                PLAYPG.style.color  = "transparent"
+            }
+        }
         ,500)
     }
     , 1000)
