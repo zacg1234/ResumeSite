@@ -28,6 +28,9 @@ body{
     margin: 7% auto 5% auto;
     width: 40%;
 }
+#education-line{
+    margin-top: 15%;
+}
 
     .title-name {
         background-color: rgba(0, 0, 0, 0.8);
