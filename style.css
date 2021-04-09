@@ -23,6 +23,28 @@ body{
 }  
  
 
+/*              Load Screen             */
+.hidden{
+    opacity: 0;
+    z-index: 0;
+}
+.gif{
+    position: fixed;
+    top: 35%;
+    left: 42%;
+    z-index: 1030;
+    width: 15%;
+}
+#load-screen{
+    background-color: rgb(27, 26, 25);
+    position: fixed;
+    height: 103%;
+    width: 103%;
+    z-index: 1005;
+    transition: opacity 2s ease-in-out;
+}
+
+
 .seperation-line{
     display: block;
     margin: 7% auto 5% auto;
@@ -453,10 +475,11 @@ footer{
 }
 footer p {
     display: table-cell;
-    color:rgb(246, 245, 243);
+    color:rgba(236, 223, 198, 0.7);
     vertical-align: middle;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: smaller;
+    font-weight: lighter;
 }
 

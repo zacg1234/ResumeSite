@@ -53,3 +53,12 @@ CONTACTBTN.addEventListener("click", OpenContactForm);
 function OpenContactForm(){
 
 };
+
+
+// load screen disapears
+const LOADSCREEN = document.getElementById("load-screen");
+
+window.addEventListener("load", function(){
+    console.log("loaded");
+    LOADSCREEN.classList.add("hidden")
+});
