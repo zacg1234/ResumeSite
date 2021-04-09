@@ -59,6 +59,7 @@ function OpenContactForm(){
 const LOADSCREEN = document.getElementById("load-screen");
 
 window.addEventListener("load", function(){
-    console.log("loaded");
-    LOADSCREEN.classList.add("hidden")
+    LOADSCREEN.classList.add("hidden") // load screen fade out
+    setTimeout(function(){LOADSCREEN.style.visibility = "hidden"}, 1800) // removes the load screen
+    
 });

@@ -26,7 +26,6 @@ body{
 /*              Load Screen             */
 .hidden{
     opacity: 0;
-    z-index: 0;
 }
 .gif{
     position: fixed;
