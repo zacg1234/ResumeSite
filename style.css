@@ -37,7 +37,7 @@ body{
 #load-screen{
     background-color: rgb(27, 26, 25);
     position: fixed;
-    height: 103%;
+    height: 120%;
     width: 103%;
     z-index: 1005;
     transition: opacity 2s ease-in-out;
