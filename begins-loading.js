@@ -2,7 +2,7 @@ const Images = [document.getElementById("img1"),document.getElementById("img2"),
     document.getElementById("img3"),document.getElementById("img4")];
     
     
-window.addEventListener("load",stop);
+body.addEventListener("load",stop);
 
 var i = 0;
 
