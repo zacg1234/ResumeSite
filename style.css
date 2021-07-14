@@ -81,7 +81,7 @@ body{
 
         #nav-options li {
             float: left;
-            padding: 1vh 3vw 1vh 3vw;
+            padding: 2vh 3vw 2vh 3vw;
             background-color: transparent;
             text-align: center;
             /* width: calc(6% + 3vh); */
@@ -183,7 +183,7 @@ body{
     }
 
         #uic-logo-container{
-            width: 32vw;
+            width: 31vw;
         }
             .uic-portion img{
                     width: 100%;
@@ -194,7 +194,7 @@ body{
         #uic-description {
             margin-right: 4vw;
             border-color:black;
-            width: 55vw;
+            width: 54vw;
             
         }
             #uic-description p {
@@ -210,26 +210,27 @@ body{
 
 
 .MY-container{
+    display: table;
     margin: 5vw 4vw 2vw 4vw;   
 }
 
 .MY-portion{
-    display: inline-block;   
+    display: table-cell;  
+    vertical-align: middle; 
+    border-spacing: 4vw;
 }
 
     #MY-logo-container{
-        width: 32vw;
+        width: 31vw;
     }
         .MY-portion img{
             width: 100%;
             float: left;
-            vertical-align: middle;
         }
 
     #MY-description {
         margin-left: 4vw;
-        vertical-align: middle;
-        width: 55vw ;
+        width: 54vw ;
     }
         #MY-description p {
             color: black;
@@ -456,7 +457,7 @@ body{
 
 footer{
     display: table;
-    margin: 20vw 0 0 0;
+    margin: 40vw 0 0 0;
     background-color:rgb(51, 51, 51);
     height: 2vw;
     width: 100%;
