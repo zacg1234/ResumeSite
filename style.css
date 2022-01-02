@@ -45,32 +45,29 @@ body{
     transition: opacity 1.5s ease-in-out;
 }
 
-#github-logo{
-    height: 4vw;
-}
-#LinkedIn-logo{
-    height: 4.1vw;
+
+
+.SMbtn{
+    height: 2vw;
 }
 
-@media (max-width: 800px) {
-    #github-logo{
-        height: 3vw;
-        padding: 0 1vw 0 2vw
-    }
-    #LinkedIn-logo{
-        height: 3.1vw;
-        padding: 0 1vw 0 0.5vw
+.SM-Logo{
+    height: 100%;
+    background-color: blanchedalmond;
+    
+}
+.SM-Logo:hover {
+    transition: background-color 0.1s ease-in-out;
+    background-color: rgb(246, 245, 243);     
+}
+
+@media (max-width: 1000px) {
+    .SMbtn{
+        height: 3vh;
+        padding: 0 3vw 0 3vw;
     }
 }
 
-@media (min-width: 800px) {
-    #github-logo{
-        height: 4vh;
-    }
-    #LinkedIn-logo{
-        height: 4.1vh;
-    }
-}
 
 
 
@@ -86,7 +83,6 @@ body{
 
     .title-name {
         background-color: rgba(0, 0, 0, 0.8);
-        /* background-image: linear-gradient(to bottom,rgb(246, 245, 243), rgba(51,51,51,1) 5%); */
         text-align: center;
         color: blanchedalmond;
         font-family: 'Comfortaa';
