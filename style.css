@@ -43,6 +43,26 @@ body{
     transition: opacity 1.5s ease-in-out;
 }
 
+@media (max-width: 600px) {
+    #github-logo{
+        height: 4vw;
+    }
+    #LinkedIn-logo{
+        height: 4.5vw;
+    }
+}
+
+@media (min-width: 600px) {
+    #github-logo{
+        height: 4vh;
+    }
+    #LinkedIn-logo{
+        height: 4.5vh;
+    }
+}
+
+
+
 
 .seperation-line{
     display: block;
