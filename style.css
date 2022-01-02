@@ -2,8 +2,10 @@
 /*@import url('./Fonts/comfortaa-v30-latin-ext_latin');
 
 
+
 /* General Rules */
 html {
+    overscroll-behavior: contain;
     scroll-behavior: smooth;
     background-color:rgba(0, 0, 0, 0.805);
      /* #f6f5f3; */
@@ -52,10 +54,12 @@ body{
 
 @media (max-width: 800px) {
     #github-logo{
-        height: 3.5vw;
+        height: 3vw;
+        padding: 0 1vw 0 2vw
     }
     #LinkedIn-logo{
-        height: 3.6vw;
+        height: 3.1vw;
+        padding: 0 1vw 0 0.5vw
     }
 }
 
