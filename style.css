@@ -43,21 +43,28 @@ body{
     transition: opacity 1.5s ease-in-out;
 }
 
-@media (max-width: 600px) {
+#github-logo{
+    height: 4vw;
+}
+#LinkedIn-logo{
+    height: 4.1vw;
+}
+
+@media (max-width: 800px) {
     #github-logo{
-        height: 4vw;
+        height: 3.5vw;
     }
     #LinkedIn-logo{
-        height: 4.5vw;
+        height: 3.6vw;
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     #github-logo{
         height: 4vh;
     }
     #LinkedIn-logo{
-        height: 4.5vh;
+        height: 4.1vh;
     }
 }
 
