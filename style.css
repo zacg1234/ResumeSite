@@ -7,11 +7,12 @@
 html {
     overscroll-behavior: contain;
     scroll-behavior: smooth;
-    background-color:rgba(0, 0, 0, 0.805);
+    background-color:rgba(17, 17, 17, 1);
      /* #f6f5f3; */
 }
 body{
-    background-color: #f6f5f3;;
+    /* background-color: #f6f5f3;; */
+    background-color:rgba(17, 17, 17, 1);
 }
 *{
     margin: 0;
@@ -37,7 +38,9 @@ body{
     width: 15%;
 }
 #load-screen{
-    background-color: rgb(27, 26, 25);
+    background-color: rgba(17, 17, 17, 0.97);
+    -webkit-backdrop-filter: saturate(300%) blur(15px);
+    backdrop-filter: saturate(200%) blur(10px);
     position: fixed;
     height: 120%;
     width: 103%;
@@ -53,12 +56,15 @@ body{
 
 .SM-Logo{
     height: 100%;
-    background-color: blanchedalmond;
+   
     
 }
 .SM-Logo:hover {
+    border-radius: 10%;
     transition: background-color 0.1s ease-in-out;
-    background-color: rgb(246, 245, 243);     
+    background-color: blanchedalmond;
+
+    box-shadow: 4px 4px 15px 1px black;     
 }
 
 @media (max-width: 1000px) {
@@ -76,13 +82,16 @@ body{
     display: block;
     margin: 7vw auto 3vw auto;
     width: 40vw;
+
+                                        /* Fancy seperation lines made invisable  */
+    visibility: hidden;  
 }
 #education-line{
     margin-top: 10vw;
 }
 
     .title-name {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(17, 17, 17, 1);
         text-align: center;
         color: blanchedalmond;
         font-family: 'Comfortaa';
@@ -93,9 +102,10 @@ body{
     }
 
     #nav-options{
+        transition: background 0.2s ease-in-out;
         -webkit-backdrop-filter: saturate(200%) blur(10px);
         backdrop-filter: saturate(200%) blur(10px);
-        background-color: rgba(0, 0, 0, 0.8); 
+        background-color: rgba(17, 17, 17, 1); 
         position: sticky;
         top: 0;
         width: 100%;
@@ -156,7 +166,8 @@ body{
     box-shadow: 4px 4px 15px 1px black;
     width: 30%;
     z-index: 2;
-    margin-right: 4%;
+    margin-left: 1%;
+    margin-right: 3%;
     border-radius: 2%;
 }
 
@@ -183,7 +194,7 @@ body{
         text-align: left;
         line-height: 150%;
         padding: 5%;
-        color: black;
+        color: blanchedalmond;
         z-index: 2;
         
     }
@@ -195,7 +206,7 @@ body{
 .section-header{
     font-size: 3.5vw;
     margin: 0 0 3vw 2vw ;
-    color: black;
+    color: blanchedalmond;
     text-decoration: underline;
 }
 
@@ -229,7 +240,7 @@ body{
                 font-family: 'Comfortaa';
                 font-weight: 900;
                 line-height: 150%;
-                color: rgb(213, 0, 50);
+                color: blanchedalmond;
             }
 
 
@@ -266,7 +277,7 @@ body{
             font-weight: 900;
             line-height: 150%;
             text-align: left;
-            color: rgb(40, 28, 85);
+            color: blanchedalmond;
         }
 
 
@@ -284,7 +295,7 @@ body{
 
     #RF-container h3{
         margin: 1vw 0 0 0 ;
-        color: rgb(28, 26, 34);
+        color: blanchedalmond;
         text-align: center;
         font-size: 3vw;
         font-weight: 900;
@@ -302,7 +313,7 @@ body{
             font-weight: 900;
             line-height: 150%;
             text-align: left;
-            color: rgb(28, 26, 34);
+            color: blanchedalmond;
             
         }
 
@@ -368,16 +379,7 @@ body{
             box-shadow: 3px 3px 10px 1px black;
         }
 
-        /* #back-side1{
-            padding-bottom: 48%;
-        }
-        #back-side2{
-            padding-bottom: 75%;
-        }
-        #back-side3{
-            padding-bottom: 31%;
-        }
- */
+
         .RFback-side p {
             font-size: 1.9vw;
             font-family: 'Comfortaa';
@@ -396,7 +398,7 @@ body{
     }
         #PG_container h3{
             margin: 1% 0 0 0 ;
-            color: rgb(64, 69, 62);
+            color: blanchedalmond;
             text-align: center;
             font-size: 3vw;
             font-weight: 900;
@@ -410,7 +412,7 @@ body{
             font-weight: 900;
             line-height: 150%;
             text-align: left;
-            color: rgb(64, 69, 62);
+            color: blanchedalmond;
             
         }
         #PG_container img{
@@ -427,9 +429,11 @@ body{
             font-family: 'Comfortaa';
             font-weight: 900;
             text-align: center;
-            color: rgb(59, 74, 53);
+            color: rgb(143, 215, 114);
             text-decoration: none;
         }
+        
+
 
 
 
@@ -448,7 +452,7 @@ body{
     }
 
     .hobbies-section section p{
-        color: black;
+        color: blanchedalmond;
         margin: 0 4vw 0% 4vw;
         font-size: 2.2vw;
         font-family: 'Comfortaa';
@@ -485,7 +489,7 @@ body{
 footer{
     display: table;
     margin: 40vw 0 0 0;
-    background-color:rgb(51, 51, 51);
+    background-color:rgb(17, 17, 17);
     height: 2vw;
     width: 100%;
 }

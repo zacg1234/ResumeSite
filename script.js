@@ -21,7 +21,7 @@ function blinkText(text){
         
        setTimeout( ()=>{
             if (PLAYPG.style.color == "transparent"){
-                PLAYPG.style.color  = "rgb(59, 74, 53)"
+                PLAYPG.style.color  = "rgb(143, 215, 114)";
             } 
             else {
                 PLAYPG.style.color  = "transparent"
@@ -52,3 +52,21 @@ CONTACTBTN.addEventListener("click", function(){window.open('mailto:zachgurevich
 
 
 
+const NAVIGATION = document.getElementById("nav-options");
+const HEADERIMG = document.getElementById("nav-image");
+
+window.addEventListener("scroll", function(){
+    var navPosition = NAVIGATION.getBoundingClientRect();
+    var headerPosition = HEADERIMG.getBoundingClientRect();
+
+    if(navPosition.top >= headerPosition.top){ 
+        //console.log("Scrolled."); 
+        NAVIGATION.style.backgroundColor = "rgba(17, 17, 17, 0.65)"
+    }
+    
+    if(navPosition.top <= headerPosition.top){
+        //console.log("Scrolled.");
+        NAVIGATION.style.backgroundColor = "rgba(17, 17, 17, 1)"
+    }
+    
+});

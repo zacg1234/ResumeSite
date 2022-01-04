@@ -4,6 +4,7 @@ const Images = [document.getElementById("img1"),document.getElementById("img2"),
     
 //window.addEventListener("load",stop);
 
+
 var i = 0;
 
 var pageIsLoaded = 0; // Have the first 5 images loaded in
