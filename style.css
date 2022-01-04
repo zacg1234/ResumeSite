@@ -151,6 +151,8 @@ body{
     z-index: 1;
     margin-bottom: -10%;
     
+    border-top-left-radius: 70% 7%;
+    border-top-right-radius: 70% 7%;
     border-bottom-left-radius: 50% 14%;
     border-bottom-right-radius: 60% 10%;
 }
