@@ -70,3 +70,13 @@ window.addEventListener("scroll", function(){
     }
     
 });
+
+/* var rellax = new Rellax('.rellax', {
+    center: false
+});
+ */
+var rellax = new Rellax('.rellax-bellow', {
+    center: true
+}, {
+    breakpoints:[560,820]
+});
