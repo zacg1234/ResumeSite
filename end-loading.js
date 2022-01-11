@@ -1,3 +1,7 @@
+function stop(){ // stops the loadscreen 
+    clearInterval(interval);
+    Images[i == 3 ? 0 : i+1].style.visibility = "hidden";
+}
 
 const LOADSCREEN = document.getElementById("load-screen"); // load screen that disapears
 
@@ -15,6 +19,6 @@ function checkLoaded(){
     if(pageIsLoaded >= 5 && playedLoadScreen){ // if the page is suffieciently loaded and the loadscreen played then end loading
         stop();
         LOADSCREEN.classList.add("hidden") // load screen fade out
-        setTimeout(function(){LOADSCREEN.style.visibility = "hidden"}, 1800) // removes the load screen
+        setTimeout(function(){LOADSCREEN.style.visibility = "hidden"}, 1500) // removes the load screen
     } 
 }

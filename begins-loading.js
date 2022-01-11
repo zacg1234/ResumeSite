@@ -1,8 +1,15 @@
 const Images = [document.getElementById("img1"),document.getElementById("img2"),
-    document.getElementById("img3"),document.getElementById("img4")];
-    
-    
-//window.addEventListener("load",stop);
+document.getElementById("img3"),document.getElementById("img4")];
+
+
+
+if (history.scrollRestoration) {
+    history.scrollRestoration = 'manual';
+} else {
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
+}
 
 
 var i = 0;
@@ -28,9 +35,6 @@ function showImages(){
     
 }
 
-function stop(){ // stops the loadscreen 
-    Images[i].classList.add("hidden");
-    clearInterval(interval);
-}
+
 
 
