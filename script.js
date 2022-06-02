@@ -68,11 +68,11 @@ window.addEventListener("scroll", function(){
 
 
 
-    // Paralax scrolling
+  /*   // Paralax scrolling
 var rellax = new Rellax('.rellax-bellow', {
     center: true
 }, {
     breakpoints:[560,820]
-});
+}); */
 
 
